@@ -1,0 +1,118 @@
+.cuerpo {
+    background-color: lightsalmon;
+    
+}
+
+.cabecera {
+    border: burlywood 5px solid;
+    text-align: center;
+    margin: 5px;
+    text-shadow: 
+        3px 3px 1px red,
+        5px 5px 2px yellow,
+        8px 8px 3px blue;
+    ;
+    background-image: url("../img/madera.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+.drop{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.datos {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.datos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.menu:hover .datos {
+    display: block;
+  }
+
+.menu:hover .drop {
+    background-color: #3e8e41;
+  }
+
+  .titulo {
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: black; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.descripcion {
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.director {
+    display: flex;
+    border: burlywood 5px solid;
+    margin-top: 10px;
+
+}
+
+
+.personajes {
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.plataformas {
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.resumen-plataformas{
+    margin: auto;
+}
+
+
+.media{
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.formulario {
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    border: burlywood 5px solid;
+    margin-top: 10px;
+    text-align: center;
+}
