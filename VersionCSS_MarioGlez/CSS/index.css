@@ -110,6 +110,8 @@
 }
 
 .link {
+    display: flex;
+    justify-content: space-around;
     border: burlywood 5px solid;
     margin-top: 10px;
     text-align: center;
