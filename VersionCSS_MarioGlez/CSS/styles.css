@@ -19,8 +19,9 @@
 
 .menu{
     position: relative;
-    display: inline-block;
-    position: relative;
+    display: grid;
+    
+
 }
 .drop{
     background-color: #4CAF50;
@@ -32,8 +33,9 @@
 }
 .datos {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position: relative;
+    background-image: url("../img/madera.jpg");
+    background-size: cover;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -44,6 +46,8 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    border: bisque 2px solid;
+    text-align: center;
   }
 
 .menu:hover .datos {
@@ -115,4 +119,9 @@
     border: burlywood 5px solid;
     margin-top: 10px;
     text-align: center;
+}
+
+.personajes {
+    display: grid;
+    justify-content: start;
 }
